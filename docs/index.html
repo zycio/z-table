@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="zycio">
+        <title>z-table - demo</title>
+
+        <script src="libs/angular/angular.min.js"></script>
+        <link href="libs/z-table/z-table.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div ng-controller="DemoController as vm">
+            <h1>Z-table</h1>
+            <z-table data="vm.data"></z-table>
+            <br/>
+            data:
+            <pre>{{vm.data | json}}</pre>
+        </div>
+
+        <script src="libs/z-table/z-table.min.js"></script>
+
+        <script src="app.js"></script>
+        <script src="app.controller.js"></script>
+    </body>
+</html>

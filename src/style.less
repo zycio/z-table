@@ -1,0 +1,32 @@
+@backgroundColor: #008bd0;
+@headerColor: #FFF;
+
+.z-table {
+    display: table;
+    border-collapse: collapse;
+    border: 1px solid @backgroundColor;
+    width: 100%;
+
+    &-header {
+        display: table-row;
+        background-color: @backgroundColor;
+        color: @headerColor;
+        text-align: center;
+    }
+
+    &-row {
+        display: table-row;
+        &:not(:last-child) {
+            border-bottom: 1px solid @backgroundColor;
+        }
+    }
+
+    &-cell {
+        display: table-cell;
+        padding: 5px;
+
+        &:not(:last-child) {
+            border-right: 1px solid @backgroundColor;
+        }
+    }
+}

@@ -1,0 +1,1 @@
+.z-table{display:table;border-collapse:collapse;border:1px solid #008bd0;width:100%}.z-table-header{display:table-row;background-color:#008bd0;color:#fff;text-align:center}.z-table-row{display:table-row}.z-table-row:not(:last-child){border-bottom:1px solid #008bd0}.z-table-cell{display:table-cell;padding:5px}.z-table-cell:not(:last-child){border-right:1px solid #008bd0}
