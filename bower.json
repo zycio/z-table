@@ -1,7 +1,10 @@
 {
   "name": "z-table",
   "description": "Simple table.",
-  "main": "index.js",
+  "main": [
+      "./dest/z-table.css",
+      "./dest/z-table.js"
+  ],
   "authors": [
     "zycio"
   ],
