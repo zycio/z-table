@@ -29,7 +29,7 @@ var app = angular.module('myApp', ['z-table']);
 
 Create controller with data
 ```js
-app.controller('MyAppController', ['$scope', function() {
+app.controller('MyAppController', ['$scope', function($scope) {
     $scope.data = [{
         name1: 'value1',
         name2: 'value2'
